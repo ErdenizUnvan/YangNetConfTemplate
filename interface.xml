@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nc:config xmlns:if="urn:ietf:params:xml:ns:yang:ietf-interfaces"
+           xmlns:ip="urn:ietf:params:xml:ns:yang:ietf-ip"
+           xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"
+           xmlns:yang="urn:ietf:params:xml:ns:yang:ietf-yang-types"
+           xmlns:inet="urn:ietf:params:xml:ns:yang:ietf-inet-types">
+    <if:interfaces>
+        <if:interface>
+            <if:name>GigabitEthernet2</if:name>
+            <if:description>NETCONF-CONFIGURED PORT</if:description>
+            <ip:ipv4>
+                <ip:address>
+                    <ip:ip>12.12.12.2</ip:ip>
+                    <ip:netmask>255.255.255.0</ip:netmask>
+                </ip:address>
+            </ip:ipv4>
+        </if:interface>
+    </if:interfaces>
+</nc:config>
